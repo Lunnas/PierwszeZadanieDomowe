@@ -4,9 +4,7 @@ import java.util.Scanner;
 public class MetodaMain {
 
     public static void main(String[] args) {
-       // int wiek;
-        //if (wiek < 0) return;
-       // if (wiek > 150) return;
+      
         Scanner in = new Scanner(System.in);
 
         System.out.println("Podaj swój wiek:");
