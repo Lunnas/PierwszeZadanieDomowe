@@ -16,12 +16,10 @@ public class ZadanieDomowe1 {
 
         if (wiek < 18) {
             System.out.println("Jesteś dzieckiem");
-        } else if (wiek >=18 && wiek < 40) {
+        } else if (wiek < 40) {
             System.out.println("Jesteś dorosłym");
-
-        } else if (wiek >=40 && wiek < 60) {
+        } else if (wiek < 60) {
             System.out.println("Jesteś w średnim wieku");
-
         } else {
             System.out.println("Jesteś w podeszłym wieku");
         }
